@@ -54,7 +54,7 @@ public class Simulador implements Task {
                 Click.on(pageSimulador.MES),
                 Click.on(pageSimulador.DIA),
                 Click.on(pageSimulador.BTN_CALCULAR),
-                WaitUntil.the(pageSimulador.CUOTAFIJA_PESOS, WebElementStateMatchers.isVisible()),
+                //WaitUntil.the(pageSimulador.CUOTAFIJA_PESOS, WebElementStateMatchers.isVisible()),
                 WaitUntil.the(pageSimulador.TXT_Valor_simulacion, WebElementStateMatchers.isVisible())
                         .forNoMoreThan(120).seconds()
         );
