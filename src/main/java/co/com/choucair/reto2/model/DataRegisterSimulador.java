@@ -9,6 +9,7 @@ public class DataRegisterSimulador {
     private String mes;
     private String dia;
 
+
     public String getValor_vivienda() {
         return valor_vivienda;
     }
@@ -64,4 +65,6 @@ public class DataRegisterSimulador {
     public void setDia(String dia) {
         this.dia = dia;
     }
+
+
 }

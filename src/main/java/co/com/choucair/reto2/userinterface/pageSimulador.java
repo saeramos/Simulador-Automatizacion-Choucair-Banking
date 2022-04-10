@@ -31,7 +31,7 @@ public class pageSimulador extends PageObject {
             .located(By.id("boton-simular"));
 
     public static final Target CUOTAFIJA_PESOS = Target.the("Respuesta")
-            //.located(By.xpath("//*[@id='layoutContainers']/div/div[2]/div/div[2]/section/div[3]/div[2]/app-root/div[1]/app-results/section/div[1]/div[2]/div/swiper/div/div/div[2]/div/div[2]"));
-            .located(By.id("boton-FIXEDFEECOP"));
+            .located(By.xpath("//*[@id='credit-on-pesos-button']//*[contains(text(),'Crédito de Vivienda')]"));
+            //.located(By.id("boton-FIXEDFEECOP"));
 
 }
